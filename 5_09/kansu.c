@@ -4,6 +4,7 @@
 
 int add(int a, int b); // 関数のプロトタイプ宣言
 int add5(int a);
+float tyouhoukeimenseki(float a, float b);
 
 int main(void) {
     printf("%d\n", add(32, 59));
@@ -21,4 +22,10 @@ int add(int a, int b){
 int add5(int a){
     a = a + 5;
     return a;
+}
+
+float tyouhoukeimenseki(float a, float b){
+    float s;
+    s = a * b;
+    return s;
 }
